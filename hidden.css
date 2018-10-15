@@ -1,0 +1,15 @@
+.am-form-file
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.am-form-file input[type=file]
+{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    font-size: 50rem;
+    opacity: 0;
+    cursor: pointer;
+}
