@@ -8,6 +8,7 @@ var lc;
 
 //test
 
+//test
 var MyCannyTool = function(lc){
     var self = this
 
