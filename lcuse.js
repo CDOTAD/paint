@@ -6,6 +6,8 @@ LC.init(
 
 var lc;
 
+//test
+
 var MyCannyTool = function(lc){
     var self = this
 
@@ -150,6 +152,10 @@ $(document).ready(function(){
         console.log('canny');
 
         //canvas
+
+        var defaultRect = lc.getDefaultImageRect();
+        console.log(defaultRect);
+
         var dataURL = lc.getImage();
         console.log(dataURL);
         let src = cv.imread(dataURL);
